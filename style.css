@@ -1,0 +1,47 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    text-align: center;
+    flex-direction: column; /* Certificando-se de que os elementos são empilhados verticalmente */
+}
+
+/* Estilizando o título */
+h1 {
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Input */
+input[type="number"] {
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Botão */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Adicionando um espaçamento entre o bo*/
+}
